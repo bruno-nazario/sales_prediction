@@ -42,9 +42,28 @@ To develop this project, we used **CRISP-DS**, a cyclical methodology for develo
   <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*hilp0xizP_43qVQ7wofz-w.jpeg">
 </p>
 
-### Some 
 
 ## Project Stages
+
+### Data Description
+This is where I first take a look at the data, seeing its dimensions, the data types and checking for null and duplicate data. In addition, I also fill in the null data and change the data types. Finally, I did a simple descriptive statistics analysis to see the general distribution of the attributes. 
+
+![jpg](imgs/1.png)
+
+### 
+
+### 
+
+### 
+
+### 
+
+### 
+
+### 
+
+### 
+
 
 ## Conclusion
 
