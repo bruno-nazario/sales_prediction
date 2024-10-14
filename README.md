@@ -1,7 +1,7 @@
 # Rossmann Sales Forecast 
 
 <p align="center">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjPZXVycaT-w43hyNiSLKMfMq1blImbye4aQ&s">
+  <img src="https://images.prismic.io/flipapp-relaunch/c7d8f723-fe04-44af-a4f7-f70a68445140_rossmann-logo.png?auto=compress,format">
 </p>
 
 ## Business Problem 
