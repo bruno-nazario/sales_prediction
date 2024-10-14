@@ -32,12 +32,13 @@ You are provided with historical sales data for 1,115 Rossmann stores. The task 
 ## Solution Planning 
 
 ### CRISP-DS
-To develop this project, we used **CRISP-DS**, a cyclical methodology for developing data science projects. The idea is to complete the project by understanding the business problem and then, after the results, go back to the beginning and try to improve the development even further. 
+To develop this project, we used **CRISP-DS**, a cyclical methodology for developing data science projects. The idea is to complete the project by understanding the business problem and then, after the results, go back to the beginning and try to improve the development even further. The image below shows the steps that was used to finish this project. 
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*bZWbkL5xLnFFj05IiTgS4A.png">
+  <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*hilp0xizP_43qVQ7wofz-w.jpeg">
 </p>
 
+### Some 
 
 ## Project Stages
 
