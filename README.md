@@ -96,4 +96,4 @@ Finally, a Python class and an API Handler were built using Flask. This way, you
 ![jpg](imgs/9.png)
 
 ## Conclusion
-
+Doing this project was very important to improve my skills as a data scientist and I believe the results were very satisfactory. As next steps, it would be interesting to do a new cycle of CRISP to try to improve the results even more. It would also be interesting to build a second project to predict the number of customers and use the predicted value to input into the base and perhaps improve the performance of the models. 
