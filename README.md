@@ -4,7 +4,7 @@
 ### Scenario
 Rossmann operates over 3,000 drug stores in 7 European countries. Currently, Rossmann store managers are tasked with predicting their daily sales for up to six weeks in advance. Store sales are influenced by many factors, including promotions, competition, school and state holidays, seasonality, and locality. With thousands of individual managers predicting sales based on their unique circumstances, the accuracy of results can be quite varied.
 
-Rossmann is challenging you to predict 6 weeks of daily sales for 1,115 stores located across Germany. Reliable sales forecasts enable store managers to create effective staff schedules that increase productivity and motivation. By helping Rossmann create a robust prediction model, you will help store managers stay focused on what’s most important to them: their customers and their teams!
+**Rossmann is challenging you to predict 6 weeks of daily sales for 1,115 stores located across Germany** . Reliable sales forecasts enable store managers to create effective staff schedules that increase productivity and motivation. By helping Rossmann create a robust prediction model, you will help store managers stay focused on what’s most important to them: their customers and their teams!
 
 ### Overview
 The data used in this project can be found at this [Kaggle](https://www.kaggle.com/competitions/rossmann-store-sales/data) link.
@@ -30,6 +30,14 @@ You are provided with historical sales data for 1,115 Rossmann stores. The task 
 - **PromoInterval** - describes the consecutive intervals Promo2 is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
 
 ## Solution Planning 
+
+### CRISP-DS
+To develop this project, we used **CRISP-DS**, a cyclical methodology for developing data science projects. The idea is to complete the project by understanding the business problem and then, after the results, go back to the beginning and try to improve the development even further. 
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*bZWbkL5xLnFFj05IiTgS4A.png">
+</p>
+
 
 ## Project Stages
 
