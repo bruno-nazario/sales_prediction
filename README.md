@@ -50,20 +50,50 @@ This is where I first take a look at the data, seeing its dimensions, the data t
 
 ![jpg](imgs/1.png)
 
-### 
+### Feature Engineering
+Here, hypotheses were created from the data attributes and, based on these hypotheses, the variables that would be useful for validating (or not) the hypotheses were created. 
 
-### 
+### Exploratory Data Analysis (EDA)
+Univariate, bivariate and multivariate analyses were carried out. To do this, graphs were constructed to help understand the behavior of the variables. 
 
-### 
+In the univariate analysis, we looked at the behavior of the “sales” response variable. And the other variables in the dataset. 
+![jpg](imgs/2.png)
+![jpg](imgs/3.png)
 
-### 
+In the bivariate analysis, the hypotheses constructed in the previous phase were put to the test. All of them were tested and verified. 
 
-### 
+![jpg](imgs/4.png)
 
-### 
+Finally, in the multivariate analysis, correlation heat maps were used using pearson for numerical variables and cramer v for categorical variables. 
 
-### 
+![jpg](imgs/5.png)
 
+### Data Preparation
+Here we've made some changes to the variables to apply the machine learning models. Rescaling, Encoding, and Nature Transformation for example. 
+
+### Feature Selection
+Here we used the Boruta algorithm to choose the best features for the models, and we also took into account the impact of the variables seen during the EDA to actually select them. 
+
+### Machine Learning Modeling
+A number of models were applied and the performance of each was measured to see which were the best. The models chosen were Average Model, Linear Regression, Linear Regression Regularized, Random Forest Regressor, XGBoost Regressor and all the alternatives were also applied using cross validation. 
+
+The metrics used to evaluate them were MAE, MAPE and RMSE. Below you can see the models and their respective metrics. The model chosen for the next steps was the Random Forest Regressor.
+
+![jpg](imgs/6.png)
+
+### Hyperparameter Fine Tunning 
+RandomizedSearchCV was used to find the best Random Forest parameters. 
+
+### Translation and Interpretation of Error 
+For better understanding by the business team, the ML metrics were translated into business performance.
+
+![jpg](imgs/8.png)
+![jpg](imgs/7.png)
+
+### Model Deploy to Production 
+Finally, a Python class and an API Handler were built using Flask. This way, you can directly access the model's results by passing the store as a parameter. You can then check the forecast for the next 6 weeks of sales for each store. 
+
+![jpg](imgs/9.png)
 
 ## Conclusion
 
